@@ -6,7 +6,7 @@
 
 Add this line to your application's Gemfile:
 
-    gem 'ferrara'
+    gem 'ferrara', :git => 'git@github.com:swanson/ferrara.git'
 
 And then execute:
 
