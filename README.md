@@ -1,6 +1,7 @@
 # Ferrara
 
-"Yo Turtle, go gimme a link to that episode."
+![](http://i.imgur.com/CNxNz.png)
+> Yo Turtle! Gimme a link to that episode, bro.
 
 ## Installation
 
