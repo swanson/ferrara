@@ -6,7 +6,7 @@ require "ferrara/netflix_finder"
 require "ferrara/itunes_finder"
 
 module Ferrara
-  def self.fetch(show, season, episode)
+  def self.fetch_links(show, season, episode)
     netflix = Ferrara::NetflixFinder.new
     hulu = Ferrara::HuluFinder.new
     itunes = Ferrara::ItunesFinder.new
