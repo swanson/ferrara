@@ -1,7 +1,7 @@
 # Ferrara
 
 ![](http://i.imgur.com/CNxNz.png)
-> Yo Turtle! Gimme a link to that episode, bro.
+> Yo [Turtle](http://en.wikipedia.org/wiki/Turtle_(Entourage\))! Gimme a link to that episode, bro.
 
 Ferrara takes a show name, season number, and episode number and gives you a link to stream the episode.
 
