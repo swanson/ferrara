@@ -1,6 +1,6 @@
 # Ferrara
 
-TODO: Write a gem description
+"Yo Turtle, go gimme a link to that episode."
 
 ## Installation
 
@@ -18,7 +18,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    require 'ferrara'
+
+    Ferrara.fetch("the office", 1, 1)
+    => {:netflix=>"http://movi.es/P2m10"}
 
 ## Contributing
 
