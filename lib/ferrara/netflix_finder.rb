@@ -13,11 +13,7 @@ module Ferrara
       response = HTTParty.get(URI::escape(url))
       record = response['d'][0]
 
-      if record && record['Instant']['Available']
-        record['TinyUrl']
-      else
-        "Not available"
-      end
+      record['TinyUrl'] if record && record['Instant']['Available']
     end
 
     private

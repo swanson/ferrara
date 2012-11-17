@@ -15,11 +15,8 @@ module Ferrara
       results = response['results']
 
       result = results.find{|r| r['trackNumber'] == episode}
-      if result
-        result['trackViewUrl']
-      else
-        "Not available"
-      end
+
+      result['trackViewUrl'] if result
     end
 
     private

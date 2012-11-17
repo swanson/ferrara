@@ -11,12 +11,8 @@ module Ferrara
 
       response = HTTParty.get(URI::escape(url))
       record = response['data'][0]
-
-      if record
-        @link + record['video']['id'].to_s
-      else
-        "Not available"
-      end
+      
+      @link + record['video']['id'].to_s if record
     end
 
     private
