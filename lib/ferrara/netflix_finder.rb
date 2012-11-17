@@ -23,7 +23,7 @@ module Ferrara
     private
     def build_filter(show, season, episode)
       name = "#{show}: Season"
-      shortname = "S#{season}:E#{episode} " #trailing space needed
+      shortname = "S#{season}:E#{episode} "
 
       "substringof('#{name}', Name) and substringof('#{shortname}', ShortName) and Type eq 'Episode'"
     end

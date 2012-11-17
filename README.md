@@ -21,7 +21,10 @@ Or install it yourself as:
     require 'ferrara'
 
     Ferrara.fetch("the office", 1, 1)
-    => {:netflix=>"http://movi.es/P2m10"}
+    => {:netflix=>"http://movi.es/P2vGu", :hulu=>"http://www.hulu.com/watch/159808"}
+
+    Ferrara.fetch("the office", 9, 4)
+    => {:netflix=>"Not available", :hulu=>"http://www.hulu.com/watch/414626"}
 
 ## Contributing
 
