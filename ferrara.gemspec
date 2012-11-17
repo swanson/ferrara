@@ -15,5 +15,5 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = Ferrara::VERSION
 
-  gem.add_runtime_dependency "nestful"
+  gem.add_runtime_dependency "httparty"
 end
