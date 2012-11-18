@@ -18,7 +18,8 @@ module Ferrara
 
     private
     def build_filter(show, season, episode)
-      name = "#{show}: Season"
+      escaped_show_name = show.sub("'", "''").sub("&", "%26")
+      name = "#{escaped_show_name}: Season"
       shortname = "S#{season}:E#{episode} "
 
       "substringof('#{name}', Name) and substringof('#{shortname}', ShortName) and Type eq 'Episode'"
