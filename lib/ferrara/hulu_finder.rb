@@ -11,8 +11,8 @@ module Ferrara
 
       response = HTTParty.get(URI::escape(url))
       record = response['data'][0]
-      
-      @link + record['video']['id'].to_s if record
+
+      @link + record['video']['id'].to_s if record && record['video']
     end
 
     private
