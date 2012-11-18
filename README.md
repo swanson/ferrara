@@ -11,7 +11,7 @@ Currently supports: Netflix, Hulu, and iTunes
 
 Add this line to your application's Gemfile:
 
-    gem 'ferrara', :git => 'git://github.com:swanson/ferrara.git'
+    gem 'ferrara', :git => 'git://github.com/swanson/ferrara.git'
 
 And then execute:
 
